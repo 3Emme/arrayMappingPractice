@@ -4,3 +4,8 @@ const doubledArray = numArray.map(function(element) {
 });
 doubledArray;
 
+const nounsArray = ["who", "what", "where", "when", "why"]
+const nounsUpper = nounsArray.map (function(noun) {
+  return noun;
+});
+nounsUpper.toUppercase(" ");
