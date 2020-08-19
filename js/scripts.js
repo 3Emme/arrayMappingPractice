@@ -5,7 +5,7 @@ const doubledArray = numArray.map(function(element) {
 doubledArray;
 
 const nounsArray = ["who", "what", "where", "when", "why"]
-const nounsUpper = nounsArray.map (function(noun) {
-  return noun;
+const toUpper = nounsArray.map (function(noun) {
+  return noun.toUpperCase();
 });
-nounsUpper.toUppercase(" ");
+toUpper;
